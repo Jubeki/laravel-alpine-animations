@@ -44,6 +44,8 @@ If a user doesn't have JavaScript enabled, then the default option will be shown
 
 ### Typing
 
+![](examples/typing-with-cursor.gif)
+
 Minimal Example:
 ```blade
 <x-alpine-animations::typing
@@ -67,6 +69,8 @@ Maximal Example (with Default values):
     cursor-shown="border-black"
 />
 ```
+
+![](examples/typing-without-cursor.gif)
 
 You can also disable the cursor altogether which leaves only the typing and deleting of characters:
 ```blade
