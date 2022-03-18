@@ -10,6 +10,12 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Changed 
 ### Removed 
 
+## 0.1.1
+
+### Added
+
+- Added ability to disable cursor for typing animation
+
 ## 0.1.0
 
 ### Added
