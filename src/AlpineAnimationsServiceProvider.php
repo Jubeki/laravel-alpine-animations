@@ -10,6 +10,6 @@ class AlpineAnimationsServiceProvider extends BaseServiceProvider
 {
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources', 'alpine-animations');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'alpine-animations');
     }
 }
