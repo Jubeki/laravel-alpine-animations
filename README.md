@@ -68,6 +68,14 @@ Maximal Example (with Default values):
 />
 ```
 
+You can also disable the cursor altogether which leaves only the typing and deleting of characters:
+```blade
+<x-alpine-animations::typing
+    :values="['First Line', 'Second Line', 'Third Line']"
+    :cursor="false"
+/>
+```
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
