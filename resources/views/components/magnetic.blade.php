@@ -28,6 +28,6 @@
     {{ $attributes->class(['relative cursor-pointer'])}}
 >
     <span class="{{ $innerClass }} relative m-10 transition-transform ease-out duration-1000">
-        {{ $slot }}
+        {{ $slot }}
     </span>
 </{{ $as }}>
