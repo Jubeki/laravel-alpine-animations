@@ -10,6 +10,12 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Changed 
 ### Removed 
 
+## 0.2.0
+
+### Added
+
+- Added Magnetic Button Animation
+
 ## 0.1.1
 
 ### Added
