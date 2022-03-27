@@ -80,6 +80,31 @@ You can also disable the cursor altogether which leaves only the typing and dele
 />
 ```
 
+### Magnetic
+
+<!-- ![](examples/magnetic.gif) -->
+
+Minimal Example:
+```blade
+<x-alpine-animations::magnetic
+    inner-class="inline-flex rounded-full bg-indigio-600 items-center justify-center w-14 h-14"
+>
+    &rightarrow;
+</x-alpine-animations::magnetic>
+```
+
+Maximal Example (with Default values, except `inner-class`):
+```blade
+<x-alpine-animations::magnetic
+    inner-class="inline-flex rounded-full bg-indigio-600 items-center justify-center w-14 h-14"
+    as="button"
+    translate-x-modifier="0.7"
+    translate-y-modifier="0.7"
+>
+    &rightarrow;
+</x-alpine-animations::magnetic>
+```
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
