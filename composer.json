@@ -24,7 +24,7 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0"
+        "illuminate/support": "^9.0 || ^10.0"
     },
     "require-dev": {
         "jubeki/laravel-code-style": "^1.0.0"
